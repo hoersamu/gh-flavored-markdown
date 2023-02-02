@@ -1,0 +1,1 @@
+<template><Slide id="slide-2">2</Slide></template>
