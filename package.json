@@ -9,9 +9,12 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.3.1",
+    "@vueuse/core": "^9.12.0",
+    "@vueuse/nuxt": "^9.12.0",
     "nuxt": "^3.1.1"
   },
   "dependencies": {
-    "@gitgraph/js": "^1.4.0"
+    "@gitgraph/js": "^1.4.0",
+    "v-network-graph": "^0.8.1"
   }
 }

@@ -51,10 +51,10 @@ const layouts: ComputedRef<Layouts> = computed(() =>
       node1: { x: x.value, y: -height.value},
       node2: { x: x.value, y: -height.value/4 },
       node3: { x: x.value, y: height.value },
-      node4: { x: width.value/2, y: height.value/3 },
+      node4: { x: x.value+100, y: -height.value/10 },
     },
   },width.value, height.value)
 );
 
-const paths = pathsFromEdges(edges,['edge3']);
+const paths = pathsFromEdges(edges,['edge4']);
 </script>
