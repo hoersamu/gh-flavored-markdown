@@ -3,7 +3,16 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/gh-flavored-markdown',
   },
-  css: ['v-network-graph/lib/style.css'],
+  components: [{ path: '~/components/', pathPrefix: false }],
+  css: [
+    'vue-code-highlight/themes/window.css',
+    'vue-code-highlight/themes/duotone-sea.css',
+  ],
   modules: ['@nuxtjs/tailwindcss', '@vueuse/nuxt'],
   ssr: false,
+  vite: {
+    define: {
+      global:'window'
+    }
+  }
 });
