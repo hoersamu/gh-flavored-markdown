@@ -38,7 +38,7 @@
 ```
       </pre>
     </CodeBlock>
-    <img class="absolute top-[50vh] left-[50vw] w-[40vw] -translate-y-1/2" src="geojson.png"/>
+    <img class="absolute top-[50vh] left-[50vw] w-[40vw] -translate-y-1/2" src="/geojson.png"/>
   </SlideTemplate>
 </template>
 

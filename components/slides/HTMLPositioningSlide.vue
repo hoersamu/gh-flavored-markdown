@@ -21,7 +21,7 @@ This image is center aligned using HTML
     <CodeBlock class="absolute top-[40vh] left-[55vw]">
       <img
         class="w-[30vw]"
-        src="htmlalign.png"
+        src="/htmlalign.png"
       />
     </CodeBlock>
   </SlideTemplate>

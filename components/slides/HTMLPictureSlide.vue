@@ -18,11 +18,11 @@
     <CodeBlock class="absolute top-[40vh] left-[55vw]">
       <img
         class="w-[30vw]"
-        src="picturelight.png"
+        src="/picturelight.png"
       />
       <img
         class="w-[30vw]"
-        src="picturedark.png"
+        src="/picturedark.png"
       />
     </CodeBlock>
   </SlideTemplate>

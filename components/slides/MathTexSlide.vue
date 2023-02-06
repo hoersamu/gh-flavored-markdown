@@ -30,7 +30,7 @@ $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \
     <CodeBlock class="absolute top-[40vh] left-[55vw]">
       <img
         class="w-[30vw]"
-        src="math.png"
+        src="/math.png"
       />
     </CodeBlock>
   </SlideTemplate>
