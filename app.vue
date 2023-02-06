@@ -73,7 +73,7 @@ const scrollToSlide: SlideChangeCallbackFunction = (behavior) => {
   document
     .getElementById(`slide-${currentSlide.value}`)
     ?.scrollIntoView({ behavior: behavior || 'smooth' });
-  router.replace(`#slide-${currentSlide.value}`);
+  window.history.pushState(null,"",`#slide-${currentSlide.value}`);
 };
 
 const nextSlide: SlideChangeCallbackFunction = (behavior) => {
