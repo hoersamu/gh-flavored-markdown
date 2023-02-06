@@ -15,12 +15,16 @@
 &lt;/picture&gt;
       </pre>
     </CodeBlock>
-    <!--<CodeBlock class="absolute top-[40vh] left-[55vw]">
+    <CodeBlock class="absolute top-[40vh] left-[55vw]">
       <img
         class="w-[30vw]"
-        src="math.png"
+        src="picturelight.png"
       />
-    </CodeBlock>-->
+      <img
+        class="w-[30vw]"
+        src="picturedark.png"
+      />
+    </CodeBlock>
   </SlideTemplate>
 </template>
 
