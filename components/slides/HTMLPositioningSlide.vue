@@ -16,6 +16,13 @@ This image is center aligned using HTML
 &lt;div display="flex" align="center"&gt;
     &lt;img height="30" src="octocat.webp"&gt;
 &lt;/div&gt;
+&lt;details&gt;&lt;summary&gt;CLICK ME&lt;/summary&gt;
+&lt;p&gt;
+
+#### We can hide anything here!
+
+&lt;/p&gt;
+&lt;/details&gt;
       </pre>
     </CodeBlock>
     <CodeBlock class="absolute top-[40vh] left-[55vw]">
